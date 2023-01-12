@@ -16,7 +16,6 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-
         --max-width: 288px;
         width: min(var(--max-width), 100% - var(--container-padding) * 2);
         margin-inline: auto;
