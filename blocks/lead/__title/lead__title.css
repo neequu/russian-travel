@@ -1,6 +1,5 @@
 .lead__title {
     margin: 0;
-    
     --max-width: 288px;
 
     max-width: var(--max-width);
