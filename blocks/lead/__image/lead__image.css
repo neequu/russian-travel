@@ -1,0 +1,30 @@
+.lead__image {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lead__image {
+        padding-inline: var(--container-padding);
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead__image {
+        margin-top: 64px;
+        max-width: 984px;
+    }
+}

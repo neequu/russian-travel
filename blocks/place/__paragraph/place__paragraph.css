@@ -1,0 +1,13 @@
+.place__paragraph {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+        line-height: 29px;
+    }
+}

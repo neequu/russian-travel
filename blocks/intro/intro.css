@@ -1,0 +1,19 @@
+.intro {
+    margin-top: 64px;
+    --max-width: 984px;
+    width: min(var(--max-width), 100% - var(--container-padding) * 2);
+    margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        margin-top: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        margin-top: 92px;
+    }
+}
+

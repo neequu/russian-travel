@@ -1,0 +1,29 @@
+.lead__subtitle {
+    margin: 0;
+
+    --max-width: 288px;
+    margin-top: 16px;
+
+    max-width: var(--max-width);
+    width: min(var(--max-width), 100% - var(--container-padding) * 2);
+    margin-inline: auto;
+
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .lead__subtitle {
+
+        
+        font-size: 30px;
+        line-height: 36px;
+
+        --max-width: 640px;
+        margin-top: 32px;
+
+    }
+}

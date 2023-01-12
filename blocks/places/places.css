@@ -1,0 +1,29 @@
+.places {
+    margin-top: 92px;
+    gap: 80px;
+
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+
+    --max-width: 984px;
+    max-width: var(--max-width);
+    width: min(var(--max-width), 100% - var(--container-padding) * 2);
+}
+
+
+
+@media (max-width: 1024px) {
+    .places {
+        margin-top: 88px;
+        gap: 72px;
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        margin-top: 64px;
+        gap: 50px;
+        width: 100%;
+    }
+}
